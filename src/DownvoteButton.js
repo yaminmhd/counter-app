@@ -2,7 +2,7 @@ import React from 'react';
 
 const DownvoteButton = (props) => {
   return(
-    <button onClick={props.handler}>-</button>
+    <button onClick={props.downvote}>-</button>
   );
 }
 

@@ -16,9 +16,9 @@ class Counter extends Component {
   render() {
     return (
       <div id="main-counter">
-        <DownvoteButton handler={this.decreaseCount}/>
+        <DownvoteButton downvote={this.decreaseCount}/>
         {this.state.count}
-        <UpvoteButton handler={this.increaseCount}/>
+        <UpvoteButton upvote={this.increaseCount}/>
       </div>
     );
   }
